@@ -51,6 +51,7 @@ OR
 Options
 -------
 
+#### Elements  
 The first set of options provides the ability to choose form elements to include in an instance of the function. All default to _true_.
 
 `text:` _boolean_  
@@ -65,7 +66,7 @@ The first set of options provides the ability to choose form elements to include
 `reset:` _boolean_  
 `label:` _boolean_  
 
-Example - to turn off customization of all `<input type="text" />` and `<input type="checkbox">` elements in an instance, set them to _false_:
+__Example:__ To turn off customization of all `<input type="text" />` and `<input type="checkbox">` elements in an instance, set them to _false_:
 
     <script type="text/javascript">  
       $(document).ready(function() {  
@@ -78,33 +79,37 @@ Example - to turn off customization of all `<input type="text" />` and `<input t
 
 Other options include:
 
-Theme - Choose a built-in theme, or set to _false_ to create your own custom theme. Built-in theme options include _'light'_ or _'dark'_. Defaults to _'light'_.  
+#### Theme  
+Choose a built-in theme, or set to _false_ to create your own custom theme. Built-in theme options include _'light'_ or _'dark'_. Defaults to _'light'_.  
 `theme:` _string_  
-####Options:  
-_'light'_, _'dark'_, _false_
+__Supported options:__ _'light'_, _'dark'_, _false_  
 
-Container Type - Choose the type of HTML tag that will render on form elements. Supported HTML tags include `<div>`, `<span>`, or `<p>`. Defaults to _'div'_.  
+#### Container Type  
+Choose the type of HTML tag that will render on form elements. Supported HTML tags include `<div>`, `<span>`, or `<p>`. Defaults to _'div'_.  
 `containerType:` _string_  
-####Options:  
-_'div'_, _'span'_, _'p'_
+__Supported options:__ _'div'_, _'span'_, _'p'_
 
-Container Class - The CSS class to be applied to the Container Type HTML tag. Defaults to _'customized'_.  
+#### Container Class  
+The CSS class to be applied to the Container Type HTML tag. Defaults to _'customized'_.  
 `containerType:` _string_  
 
-File Button Text - The text to be displayed on `<input type="file" />` element's button. Defaults to _'Browse'_.  
+#### File Button Text  
+The text to be displayed on `<input type="file" />` element's button. Defaults to _'Browse'_.  
 `fileButtonText:` _string_  
 
-File Max Length - A maximum character limit for the displayed file text in `<input type="file" />` element's textbox. Defaults to _25_.  
+#### File Max Length  
+A maximum character limit for the displayed file text in `<input type="file" />` element's textbox. Defaults to _25_.  
 `fileButtonText:` _number_    
 
-Inline Elements - Set an element type to display inline. Supported elements include `<input type="checkbox" />`, `<input type="radio" />`, `<input type="submit" />`, `<input type="button" />`, `<input type="reset" />`. All default to _true_.  
+#### Inline Layouts    
+Set an element type to display inline. Supported elements include `<input type="checkbox" />`, `<input type="radio" />`, `<input type="submit" />`, `<input type="button" />`, `<input type="reset" />`. All default to _true_.  
 `inlineCheckbox:` _boolean_    
 `inlineRadio:` _boolean_  
 `inlineSubmit:` _boolean_  
 `inlineButton:` _boolean_  
 `inlineReset:` _boolean_  
 
-Example - To set checkboxes to display as a list in an instance, you would set `inlineCheckbox:` to _false_:  
+__Example:__ To set checkboxes to display as a list in an instance, you would set `inlineCheckbox:` to _false_:  
 
     <script type="text/javascript">  
       $(document).ready(function() {  
