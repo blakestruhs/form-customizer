@@ -80,25 +80,25 @@ __Example:__ To turn off customization of all `<input type="text" />` and `<inpu
 Other options include:
 
 #### Theme  
-Choose a built-in theme, or set to _false_ to create your own custom theme. Built-in theme options include _'light'_ or _'dark'_. Defaults to _'light'_.  
+Choose a built-in theme, or set to _false_ to create your own custom theme. Built-in theme options include `'light'` or `'dark'`. Defaults to `'light'`.  
 `theme:` _string_  
-__Supported options:__ _'light'_, _'dark'_, _false_  
+__Supported options:__ `'light'`, `'dark'`, _`false`_  
 
 #### Container Type  
-Choose the type of HTML tag that will render on form elements. Supported HTML tags include `<div>`, `<span>`, or `<p>`. Defaults to _'div'_.  
+Choose the type of HTML tag that will render on form elements. Supported HTML tags include `<div>`, `<span>`, or `<p>`. Defaults to `'div'`.  
 `containerType:` _string_  
-__Supported options:__ _'div'_, _'span'_, _'p'_
+__Supported options:__ `'div'`, `'span'`, `'p'`
 
 #### Container Class  
-The CSS class to be applied to the Container Type HTML tag. Defaults to _'customized'_.  
+The CSS class to be applied to the Container Type HTML tag. Defaults to `'customized'`.  
 `containerType:` _string_  
 
 #### File Button Text  
-The text to be displayed on `<input type="file" />` element's button. Defaults to _'Browse'_.  
+The text to be displayed on `<input type="file" />` element's button. Defaults to `'Browse'`.  
 `fileButtonText:` _string_  
 
 #### File Max Length  
-A maximum character limit for the displayed file text in `<input type="file" />` element's textbox. Defaults to _25_.  
+A maximum character limit for the displayed file text in `<input type="file" />` element's textbox. Defaults to `25`.  
 `fileButtonText:` _number_    
 
 #### Inline Layouts    
@@ -109,7 +109,7 @@ Set an element type to display inline. Supported elements include `<input type="
 `inlineButton:` _boolean_  
 `inlineReset:` _boolean_  
 
-__Example:__ To set checkboxes to display as a list in an instance, you would set `inlineCheckbox:` to _false_:  
+__Example:__ To set checkboxes to display as a list in an instance, you would set `inlineCheckbox:` to _`false`_:  
 
     <script type="text/javascript">  
       $(document).ready(function() {  
