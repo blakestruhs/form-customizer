@@ -1,7 +1,8 @@
 Form Customizer
 =========
 
-####A UI Plugin for [jQuery][1]
+####A UI Plugin for [jQuery][1]  
+Copyright ©2012 Blake Jason Struhs UI/UX Design & Development
 
 Overview
 --------
@@ -117,7 +118,7 @@ Set an element type to display inline. Supported elements include `<input type="
 `inlineButton:` _boolean_  
 `inlineReset:` _boolean_  
 
-__Example:__ To set checkboxes to display as a list in an instance, you would set `inlineCheckbox:` to _`false`_:  
+__Example:__ To set checkboxes to display as a list in an instance, you would set `inlineCheckbox:` to `false`:  
 
     <script type="text/javascript">  
       $(document).ready(function() {  
@@ -131,9 +132,9 @@ __Example:__ To set checkboxes to display as a list in an instance, you would se
 Contact
 -------
 
-* Code: `git clone git://github.com/blakestruhs/form-customizer.git`  
-* Home: <https://github.com/blakestruhs>  
-* Email: <blakejasonstruhs@gmail.com>  
+Clone: `git clone git://github.com/blakestruhs/form-customizer.git`  
+Github: <https://github.com/blakestruhs>  
+Email: <blakejasonstruhs@gmail.com>  
 
 [1]: http://jquery.com/
 [2]: http://code.jquery.com/jquery-1.7.2.min.js
