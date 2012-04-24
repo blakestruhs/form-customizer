@@ -2,7 +2,7 @@ Form Customizer
 =========
 
 ####A UI Plugin for [jQuery][1]  
-Copyright ©2012 Blake Jason Struhs UI/UX Design & Development
+_Copyright ©2012 Blake Jason Struhs UI/UX Design & Development_
 
 Overview
 --------
