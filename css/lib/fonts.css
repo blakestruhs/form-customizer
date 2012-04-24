@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Museo300';
+    src: url('../fonts/museo/museo300.eot');
+    src: url('../fonts/museo/museo300.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo/museo300.woff') format('woff'),
+         url('../fonts/museo/museo300.ttf') format('truetype'),
+         url('../fonts/museo/museo300.svg#Museo300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo500';
+    src: url('../fonts/museo/museo500.eot');
+    src: url('../fonts/museo/museo500.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo/museo500.woff') format('woff'),
+         url('../fonts/museo/museo500.ttf') format('truetype'),
+         url('../fonts/museo/museo500.svg#Museo500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
