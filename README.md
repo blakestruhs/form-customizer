@@ -80,29 +80,37 @@ __Example:__ To turn off customization of all `<input type="text" />` and `<inpu
 Other options include:
 
 #### Theme  
-Choose a built-in theme, or set to _false_ to create your own custom theme. Built-in theme options include `'light'` or `'dark'`. Defaults to `'light'`.  
-`theme:` _string_  
-__Supported options:__ `'light'`, `'dark'`, _`false`_  
+Choose a built-in theme, or set to _false_ to create your own custom theme. Built-in theme options include `'light'` or `'dark'`. Defaults to `'light'`.
+
+`theme:` _string_
+
+__Supported options:__ `'light'`, `'dark'`, `false`  
 
 #### Container Type  
-Choose the type of HTML tag that will render on form elements. Supported HTML tags include `<div>`, `<span>`, or `<p>`. Defaults to `'div'`.  
-`containerType:` _string_  
-__Supported options:__ `'div'`, `'span'`, `'p'`
+Choose the type of HTML tag that will render on form elements. Supported HTML tags include `<div>`, `<span>`, or `<p>`. Defaults to `'div'`.
+
+`containerType:` _string_
+
+__Supported options:__ `'div'`, `'span'`, `'p'`  
 
 #### Container Class  
-The CSS class to be applied to the Container Type HTML tag. Defaults to `'customized'`.  
+The CSS class to be applied to the Container Type HTML tag. Defaults to `'customized'`.
+
 `containerType:` _string_  
 
 #### File Button Text  
-The text to be displayed on `<input type="file" />` element's button. Defaults to `'Browse'`.  
+The text to be displayed on `<input type="file" />` element's button. Defaults to `'Browse'`.
+
 `fileButtonText:` _string_  
 
 #### File Max Length  
-A maximum character limit for the displayed file text in `<input type="file" />` element's textbox. Defaults to `25`.  
+A maximum character limit for the displayed file text in `<input type="file" />` element's textbox. Defaults to `25`.
+
 `fileButtonText:` _number_    
 
 #### Inline Layouts    
 Set an element type to display inline. Supported elements include `<input type="checkbox" />`, `<input type="radio" />`, `<input type="submit" />`, `<input type="button" />`, `<input type="reset" />`. All default to _true_.  
+
 `inlineCheckbox:` _boolean_    
 `inlineRadio:` _boolean_  
 `inlineSubmit:` _boolean_  
