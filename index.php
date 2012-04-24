@@ -6,13 +6,13 @@
 <!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Form Customizer | Blake Jason Struhs UI/UX Design &amp; Development</title>
-  <meta name="description" content="">
-  <meta name="author" content="Blake Jason Struhs">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="css/form.customizer.css">
+  <meta name="description" content="" />
+  <meta name="author" content="Blake Jason Struhs" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/form.customizer.css" />
   <style type="text/css">
   	::selection {background: #767676;}
 	::-moz-selection {background: #767676;}
