@@ -23,9 +23,13 @@ Below that, you will need to include Form Customizer:
 
     <script src="form.customizer.1.0.min.js"></script>  
 
-To use built-in themes, you will need to include the Form Customizer CSS file:  
+Also, you will need to include the Form Customizer CSS file (or copy into your own CSS file):  
 
-    <link rel="stylesheet" href="form.customizer.css" />
+    <link rel="stylesheet" href="form.customizer.1.0.css" />
+
+If you want to use any of the built-in themes, include the theme CSS file (or copy into your own CSS file):
+
+    <link rel="stylesheet" href="form.customizer.light.css" />
 
 Initialize an instance of Form Customizer on any `<form>` tag:
 
