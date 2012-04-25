@@ -19,7 +19,7 @@ Be sure to include the latest version of jQuery: [Minified][2], [Uncompressed][3
 
     <script src="jquery-1.7.2.min.js"></script>  
 
-Below that, you will need to include Form Customizer:
+Below that, you will need to include the Form Customizer JS file:
 
     <script src="form.customizer.1.0.min.js"></script>  
 
