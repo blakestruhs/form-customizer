@@ -1,0 +1,103 @@
+/*
+ *
+ * Form Customizer: A UI Plugin for jQuery
+ * 
+ * Version: 1.0.0
+ * Released: 04.23.2012
+ * Author:  Blake Struhs
+ * Email: blakejasonstruhs@gmail.com
+ * Github:  @blakestruhs
+ *
+ * Copyright ©2012 Blake Jason Struhs UI/UX Design & Development
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to dealin the
+ * Software without restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+ * Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+ * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+/* ------------------------------------------------------------------------------- */
+form.customize fieldset {margin-bottom: 2.0em;}
+form.customize fieldset:last-child {margin-bottom: 0;}
+form.customize:after,
+form.customize fieldset:after {clear: both;}
+form.customize:before,
+form.customize fieldset:before,
+form.customize:after,
+form.customize fieldset:after {content: ""; display: table;}
+form.customize .customized {display: block;}
+form.customize .customized.text,
+form.customize .customized.password {margin-right: 1.0em;}
+form.customize .customized.text,
+form.customize .customized.password,
+form.customize .customized.textarea {margin-bottom: 1.0em;}
+form.customize .customized.text:last-child,
+form.customize .customized.password:last-child,
+form.customize .customized.textarea:last-child {margin: 0;}
+form.customize .customized.textarea {clear: both;}
+form.customize .customized.checkbox,
+form.customize .customized.radio {float: left; clear: left;}
+form.customize .customized.checkbox,
+form.customize .customized.radio,
+form.customize .customized.select,
+form.customize .customized.file {margin-bottom: 1.0em; position: relative;}
+form.customize .customized.checkbox:last-child,
+form.customize .customized.radio:last-child,
+form.customize .customized.select:last-child,
+form.customize .customized.file:last-child {margin: 0;}
+form.customize .customized.checkbox input,
+form.customize .customized.radio input,
+form.customize .customized.select select,
+form.customize .customized.file input {z-index: 1; opacity: 0; filter: alpha(opacity=0); -khtml-appearance: none;}
+form.customize .customized.checkbox input,
+form.customize .customized.radio input,
+form.customize .customized.select select,
+form.customize .customized.file input,
+form.customize .customized.checkbox .faux-checkbox,
+form.customize .customized.radio .faux-radio,
+form.customize .customized.select .faux-select {position: absolute; top: 0; left: 0;}
+form.customize .customized.select .faux-select .arrow {position: relative; float: right;}
+form.customize .customized.file .faux-file {float: left; clear: left; position: relative; z-index: 2;}
+form.customize .customized.file:after,
+form.customize .customized.file .faux-file:after {clear: both;}
+form.customize .customized.file:before,
+form.customize .customized.file .faux-file:before,
+form.customize .customized.file:after,
+form.customize .customized.file .faux-file:after {content: ""; display: table;}
+form.customize .customized.file .faux-file .input {min-width: 100px; overflow: hidden;}
+form.customize .customized.file .faux-file .input,
+form.customize .customized.file .faux-file .button {float: left; display: block;}
+form.customize .customized.label {padding-left: 0.5em; margin-right: 1.0em;}
+form.customize .customized.label.for-text,
+form.customize .customized.label.for-password,
+form.customize .customized.label.for-textarea,
+form.customize .customized.label.for-select,
+form.customize .customized.label.for-file {margin-bottom: 0.3em;}
+form.customize .customized.label.for-checkbox,
+form.customize .customized.label.for-radio {float: left;}
+form.customize .customized.label.disabled label {cursor: default;}
+form.customize .customized.submit,
+form.customize .customized.button,
+form.customize .customized.reset {margin-bottom: 1.0em;}
+form.customize .customized.submit:last-child,
+form.customize .customized.button:last-child,
+form.customize .customized.reset:last-child {margin: 0;}
+form.customize .customized.inline {float: left; margin-right: 1.0em;}
+form.customize .customized.inline.checkbox,
+form.customize .customized.inline.radio {clear: none; margin-right: 0;}
+form.customize .customized.inline.submit,
+form.customize .customized.inline.button,
+form.customize .customized.inline.reset {margin-bottom: 0;}
