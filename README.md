@@ -33,6 +33,7 @@ To use either of the built-in themes, include the theme CSS file (or copy into y
 
     <link rel="stylesheet" href="form.customizer.themes.css" />
 
+Also you will need to include the theme images located in the `css/images/` directory.
 
 #### Initializing the plugin  
 Initialize an instance of Form Customizer on any `<form>` tag:

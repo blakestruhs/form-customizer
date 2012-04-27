@@ -253,10 +253,10 @@
 			        	obj.bind('mouseleave', function() {
 			        		$(this).removeClass('over');
 			        	});
-			        	obj.bind('mousedown keydown', function() {
+			        	obj.bind('mousedown', function() {
 		        			$(this).addClass('down');
 		        		});
-		        		obj.bind('mouseup keyup', function() {
+		        		obj.bind('mouseup', function() {
 		        			$(this).removeClass('down');
 		        		});
 			        	obj.bind('focus', function() {
@@ -275,10 +275,10 @@
 			        	obj.bind('mouseleave', function() {
 			        		$(this).next('.faux-' + key).removeClass('over');
 			        	});
-			        	obj.bind('mousedown keydown', function() {
+			        	obj.bind('mousedown', function() {
 		        			$(this).next('.faux-' + key).addClass('down');
 		        		});
-		        		obj.bind('mouseup keyup', function() {
+		        		obj.bind('mouseup', function() {
 		        			$(this).next('.faux-' + key).removeClass('down');
 		        		});
 			        	obj.bind('focus', function() {
@@ -297,10 +297,10 @@
 			        	obj.next('.faux-' + key).bind('mouseleave', function() {
 			        		$(this).removeClass('over');
 			        	});
-			        	obj.next('.faux-' + key).bind('mousedown keydown', function() {
+			        	obj.next('.faux-' + key).bind('mousedown', function() {
 		        			$(this).addClass('down');
 		        		});
-		        		obj.next('.faux-' + key).bind('mouseup keyup', function() {
+		        		obj.next('.faux-' + key).bind('mouseup', function() {
 		        			$(this).removeClass('down');
 		        		});
 			        	obj.next('.faux-' + key).bind('focus', function() {
