@@ -15,6 +15,7 @@ Form Customizer was built with flexibility in mind. All styling is applied throu
 Usage
 -----
 
+#### Required Files  
 Be sure to include the latest version of jQuery: [Minified][2], [Uncompressed][3]
 
     <script src="jquery-1.7.2.min.js"></script>  
@@ -27,18 +28,20 @@ Also, you will need to include the Form Customizer CSS file (or copy into your o
 
     <link rel="stylesheet" href="form.customizer.1.0.css" />
 
-If you want to use any of the built-in themes, include the theme CSS file (or copy into your own CSS file):
+#### Built-In Themes  
+To use either of the built-in themes, include the theme CSS file (or copy into your own CSS file):
 
-    <link rel="stylesheet" href="form.customizer.light.css" />
+    <link rel="stylesheet" href="form.customizer.themes.css" />
 
+
+#### Initializing the plugin  
 Initialize an instance of Form Customizer on any `<form>` tag:
 
     <script type="text/javascript">  
       $(document).ready(function() {  
         $('form').formCustomizer({});  
       });  
-    </script>  
-
+    </script>
 
 Choosing a specific form or group of forms by way of ID `<form id="myform">` or Class `<form class="myforms">`:
   
