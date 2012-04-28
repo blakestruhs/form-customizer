@@ -58,8 +58,28 @@ OR
       $(document).ready(function() {  
         $('.myforms').formCustomizer({});  
       });  
-    </script>  
+    </script>
 
+#### Structuring form markup
+Form Customizer will work on any HTML form, but is optimized for forms that are structured correctly using the HTML `<fieldset>` tag. This tag is used to group related form elements, and within the plugin, clears floats applied to form element containers that helps render the proper layout. 
+  
+    <form id="myform">  
+      <fieldset>  
+        <input type="text" name="text-one" id="text-one" size="30" />  
+        <input type="text" name="text-two" id="text-two" size="50" />  
+      </fieldset>  
+
+      <fieldset>  
+        <label for="textarea">Textarea</label>  
+        <textarea name="textarea" id="textarea" cols="50" rows="5"></textarea>  
+      </fieldset>
+
+      <fieldset>  
+        <input type="checkbox" name="checkbox" value="option 1" id="checkbox-one" /><label for="checkbox-one">Option 1</label>  
+        <input type="checkbox" name="checkbox" value="option 2" id="checkbox-two" /><label for="checkbox-two">Option 2</label>  
+        <input type="checkbox" name="checkbox" value="option 3" id="checkbox-three" /><label for="checkbox-three">Option 3</label>  
+      </fieldset>  
+    </form>  
 
 Options
 -------
