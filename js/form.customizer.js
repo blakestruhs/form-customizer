@@ -3,7 +3,7 @@
  * Form Customizer: A UI Plugin for jQuery
  * 
  * Version: 1.1.0
- * Released: Unreleased
+ * Released: 09.13.2012
  * Author:  Blake Struhs
  * Email: blakejasonstruhs@gmail.com
  * Github:  @blakestruhs
