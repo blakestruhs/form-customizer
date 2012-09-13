@@ -2,8 +2,8 @@
  *
  * Form Customizer: A UI Plugin for jQuery
  * 
- * Version: 1.0.0
- * Released: 04.23.2012
+ * Version: 1.1.0
+ * Released: Unreleased
  * Author:  Blake Struhs
  * Email: blakejasonstruhs@gmail.com
  * Github:  @blakestruhs
@@ -101,3 +101,4 @@ form.customize .customized.inline.radio {clear: none; margin-right: 0;}
 form.customize .customized.inline.submit,
 form.customize .customized.inline.button,
 form.customize .customized.inline.reset {margin-bottom: 0;}
+form.customize .customized *:focus {outline: none;}
