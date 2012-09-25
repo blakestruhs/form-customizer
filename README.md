@@ -36,13 +36,15 @@ To use either of the built-in themes, include the theme CSS file (or copy into y
 Also you will need to include the theme images located in the `css/images/` directory.
 
 #### Initializing the plugin  
-Initialize an instance of Form Customizer on any `<form>` tag by adding the `customize` class:
+Add the css class `.customize` to any `<form>` tag:
 
     <form class="customize">
 
+Initialize an instance of Form Customizer in a script block or by adding it to an external .js file:
+
     <script type="text/javascript">  
       $(document).ready(function() {  
-        $('form.customize').formCustomizer({});  
+        $('.customize').formCustomizer({});  
       });  
     </script>
 
