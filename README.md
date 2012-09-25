@@ -36,10 +36,6 @@ To use either of the built-in themes, include the theme CSS file (or copy into y
 Also you will need to include the theme images located in the `css/images/` directory.
 
 #### Initializing the plugin  
-Add the css class `.customize` to any `<form>` tag:
-
-    <form class="customize">
-
 Initialize an instance of Form Customizer in a script block or by adding it to an external .js file:
 
     <script type="text/javascript">  
@@ -48,21 +44,9 @@ Initialize an instance of Form Customizer in a script block or by adding it to a
       });  
     </script>
 
-Choosing a specific form or group of forms by way of ID `<form id="myform">` or Class `<form class="myforms">`:
-  
-    <script type="text/javascript">  
-      $(document).ready(function() {  
-        $('#myform').formCustomizer({});  
-      });  
-    </script>  
+Choose which form tag(s) you want to target by adding the css class `.customize`:
 
-OR
-
-    <script type="text/javascript">  
-      $(document).ready(function() {  
-        $('.myforms').formCustomizer({});  
-      });  
-    </script>
+    <form class="customize">
 
 #### Structuring form markup
 Form Customizer will work on any HTML form, but is optimized for forms that are structured correctly using the HTML `<fieldset>` tag. This tag is used to group related form elements, and within the plugin, clears floats applied to form element containers that helps render the proper layout. 
