@@ -18,15 +18,15 @@ Usage
 #### Required Files  
 Be sure to include the latest version of jQuery: [Minified][2], [Uncompressed][3]
 
-    <script src="jquery-1.7.2.min.js"></script>  
+    <script src="jquery-1.8.1.min.js"></script>  
 
 Below that, you will need to include the Form Customizer JS file:
 
-    <script src="form.customizer.1.0.min.js"></script>  
+    <script src="form.customizer.min.js"></script>  
 
 Also, you will need to include the Form Customizer CSS file (or copy into your own CSS file):  
 
-    <link rel="stylesheet" href="form.customizer.1.0.css" />
+    <link rel="stylesheet" href="form.customizer.css" />
 
 #### Built-In Themes  
 To use either of the built-in themes, include the theme CSS file (or copy into your own CSS file):
@@ -36,11 +36,13 @@ To use either of the built-in themes, include the theme CSS file (or copy into y
 Also you will need to include the theme images located in the `css/images/` directory.
 
 #### Initializing the plugin  
-Initialize an instance of Form Customizer on any `<form>` tag:
+Initialize an instance of Form Customizer on any `<form>` tag by adding the `customize` class:
+
+    <form class="customize">
 
     <script type="text/javascript">  
       $(document).ready(function() {  
-        $('form').formCustomizer({});  
+        $('form.customize').formCustomizer({});  
       });  
     </script>
 
@@ -169,5 +171,5 @@ Github: <https://github.com/blakestruhs>
 Email: <blakejasonstruhs@gmail.com>  
 
 [1]: http://jquery.com/
-[2]: http://code.jquery.com/jquery-1.7.2.min.js
-[3]: http://code.jquery.com/jquery-1.7.2.js
+[2]: http://code.jquery.com/jquery-1.8.1.min.js
+[3]: http://code.jquery.com/jquery-1.8.1.js
