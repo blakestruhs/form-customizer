@@ -51,7 +51,7 @@ Choose which form tag(s) you want to target by adding the css class `.customize`
 #### Structuring form markup
 Form Customizer will work on any HTML form, but is optimized for forms that are structured correctly using the HTML `<fieldset>` tag. This tag is used to group related form elements, and within the plugin, clears floats applied to form element containers that helps render the proper layout. 
   
-    <form id="myform">  
+    <form class="customize">  
       <fieldset>  
         <input type="text" name="text-one" id="text-one" size="30" />  
         <input type="text" name="text-two" id="text-two" size="50" />  
@@ -91,7 +91,7 @@ __Example:__ To turn off customization of all `<input type="text" />` and `<inpu
 
     <script type="text/javascript">  
       $(document).ready(function() {  
-        $('#myform').formCustomizer({  
+        $('.customize').formCustomizer({  
           text: false,  
           checkbox: false  
         });  
@@ -142,7 +142,7 @@ __Example:__ To set checkboxes to display as a list in an instance, you would se
 
     <script type="text/javascript">  
       $(document).ready(function() {  
-        $('#myform').formCustomizer({  
+        $('.customize').formCustomizer({  
           inlineCheckbox: false  
         });  
       });  
